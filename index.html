@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bemutatkozó oldal</h1>
+        <nav>
+            <a href="#about">Rólam</a>
+            <a href="#projects">Projektek</a>
+            <a href="#contact">Kapcsolat</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Rólam</h2>
+        <p>Egy rövid bemutatkozó szöveg.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projektek</h2>
+        <div id="project-list"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <form>
+            <input type="text" placeholder="Név" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Üzenet" required></textarea>
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Saját név</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
